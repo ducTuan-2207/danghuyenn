@@ -1,0 +1,21 @@
+#name1,
+#email1 {
+    padding: 15px;
+    border-radius: 10px;
+}
+#message1,
+.send input {
+    border-radius: 10px;
+}
+.send {
+    padding: 15px;
+    border-radius: 10px;
+}
+.send:hover {
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+}
+.phone {
+    margin: 20px;
+}

@@ -1,0 +1,33 @@
+a {
+    font-size: 35px;
+    
+}
+.dropdown-item {
+    font-size: 20px;
+}
+.line {
+    border-bottom: 1px solid #000;
+}
+.navbar {
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.dropdown-toggle {
+    font-size: 25px;
+}
+.d-flex input {
+    width: 200px;
+}
+.anh {
+    width: 100vh;
+    height: 85vh;
+    /* object-fit: cover; */
+}
+.tit_bac {
+    font-size: 50px;
+    font-style: italic;
+}
+.text_bac {
+    font-size: 20px;
+}

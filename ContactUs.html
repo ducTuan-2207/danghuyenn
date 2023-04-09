@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footerweb.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="./style.css">
+   
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <style>
+
+        body{
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+        .contactus{
+            display: flex;
+            background-color: white;
+        }
+        .contactleft {
+            color:rgb(0, 90, 36);
+            font-size: 40px;
+            width: 50%;
+            margin-left: 5rem;
+            margin-right: 5rem;
+            margin-top: 4rem;
+            text-align: center;
+        }
+        @font-face {
+            font-family: newfont;
+            src: url(./MrDeHaviland-Regular.ttf);
+        }
+        .contactleft .title p {
+            font-family: newfont;
+            font-size: 80px;
+        }
+        .getintouch{
+            display:flex;
+            margin-top: 5rem;    
+        }
+        .contactleft .clock{
+            margin-top: 3rem;
+            margin-bottom: 4px;
+            
+        }
+        .contactleft .workhour{
+            margin-right: 8rem;
+            margin-left: 6rem;
+        }
+        
+        .contactleft .phone{
+            margin-top: 3rem;
+    
+        }
+        
+        .contactleft h4{
+            font-size: 35px;
+            margin-bottom: 1rem;
+        }
+        .contactleft p{
+            font-size: 20px;
+        }
+        
+        .contactbox{
+            max-width: 800px;
+            width: 50%;
+            height: 600px;
+            background-image: url("https://images.unsplash.com/photo-1520671486401-ba5f2ab2213c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+            margin-top: 2rem;
+            margin-right: 5rem;
+            padding: 40px;
+            border-radius: 3px;
+            margin-bottom: 5rem;
+        } 
+        h1{
+            margin: 0;
+            text-align: center;
+            font-family:'Times New Roman', Times, serif;
+            color: rgb(0, 90, 36);
+
+        }
+        label{
+            display: block; 
+            /* này là để các name, email, message tạo thành các khối 3 dòng */
+            margin: 5px 5px;
+            color: rgb(0, 90, 36);
+
+
+        }
+        input, textarea{
+            width: 100%;
+            padding: 10px;
+            font-size: 18px;
+            outline: none;
+            border: none;
+            box-sizing: border-box;
+            border-bottom: 1px solid rgb(209, 209, 209);  
+            margin-bottom: 2rem;
+            
+        }
+        .cover img{
+            width: 100%;
+        }
+        .send :hover{
+            background-color: rgb(0, 90, 36);
+            color: white;
+        }
+
+
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <a style="color: rgb(0, 90, 36);" href="">FIOR</a><a style="color: rgb(105, 194, 3);" href="">ELLO</a>
+        </div>
+        <div class="nav_menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+        
+                <li><a href="plantmenu.html">Plants</a></li>
+                <li><a href="potmenu.html">Pots</a></li>
+                <li><a href="Plantcare.html">Plant Care</a></li>
+            </ul>
+        </div>
+       
+            
+            <div class="contact">
+                <div class="cart">
+                    <i class="fa fa-shopping-cart" style="font-size: 25px; "></i>
+                </div>
+                <span class="count">0</span>
+                <a href="ContactUs.html" style="color: rgb(105, 194, 3);font-weight: bolder;text-decoration: underline;">Contact Us</a>
+            </div>
+       
+    </div>
+    <div class="contactus">
+        <div class="contactleft">
+            <div class="title">
+                <p>We take everything personally,</p>
+               <p> with your thoughts in hand…</p>
+            </div>
+           <div class="getintouch">
+            <div class="workhour">
+                <div class="clock"><i class='far fa-clock' style='font-size: 60px;'></i></div>
+                <div> 
+                  <h4>Work hour</h4>
+                  <p>Monday - Friday: 9am - 6pm</p>
+                  <p>Saturday - Sunday: 9am - 5pm</p>
+              
+                </div>  
+             </div>
+             <div class="Callus">
+              <div class="phone"><i class="fa-solid fa-phone-volume" ></i></div>
+              <h4>Call Us</h4>
+              <p>0812371688</p>
+             </div>
+
+           </div>
+           
+   
+        </div>
+        <div class="contactbox">
+            <h1>Contact Us</h1>
+            <label for="name" style="font-size: 20px;">Name:</label>
+            <input type="text" id="name1" placeholder="Your name">
+
+            <label for="email"style="font-size: 20px;">Email:</label>
+            <input type="text"id="email1" placeholder="Your email">
+
+            <label for="message"style="font-size: 20px;">Message:</label>
+            <textarea id="message1" placeholder="Your message" rows="6"></textarea>
+             
+            
+                <input type="submit" value="SEND MESSAGE" class="send">
+        
+    </div>
+    </div>
+    <div class="footer">
+        <div class="grid">
+            <div class="grid_column">
+                <div class="grid_column_content">
+                    <h3> CUSTOMER SERVICE</h3>
+                    <ul class="column_list">
+                        <li><a href="">Help & Contact Us</a></li>
+                        <li><a href="">Returns & Refunds</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="grid_column_content">
+                    <h3> COMPANY</h3>
+                    <ul class="column_list">
+                        <li><a href="">About Us</a> </li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>    
+                </div>
+                <div class="grid_column_content">
+                    <h3> SOCIAL MEDIA</h3>
+                    <ul class="column_list">
+                        <li><a href="">Instagram</a></li>
+                        <li><a href="">Pinterest</a></li>
+                        <li><a href="">Tumblr</a></li>
+                        <li><a href="">Twitter</a></li>
+                        <li><a href="">Facebook</a></li>
+                    </ul>
+                </div>
+                <div class="grid_column_content">
+                    <h3> ARCHIVE</h3>
+                    <ul class="column_list">
+                        <li><a href="">Gallery</a></li>
+                        <li> <a href="">Feature Index</a></li>
+                    </ul>     
+                </div>
+            </div>
+        </div>
+    </div>
+       
+    
+</body>
+<script src="cart.js"></script>
+</html>

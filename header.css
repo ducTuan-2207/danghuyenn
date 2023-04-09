@@ -1,0 +1,56 @@
+.header{
+    padding:2rem 5rem;
+    /* nay la shorthand: top bot 0, righ left 5rem */
+}
+.logo{
+    width:280px;
+    font-size: 3rem;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.nav_menu{
+    font-size: 1.5rem;
+    color: rgb(0, 90, 36);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contact{
+    display: flex;
+    font-size: 1.3rem;
+    color: rgb(0, 90, 36);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cart{
+    margin-right: -0.2rem;
+}
+.cart:hover {
+    cursor: pointer;
+}
+
+.count{
+    text-align: center;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.76);
+    width:1.5rem;
+    height: 1.4rem;
+    border-radius: 10px;
+    border: 1px solid rgb(233, 233, 233);
+    margin-right: 2.5rem;
+    margin-top: -0.7rem;
+    font-size: 17px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header ul{
+    display:flex;
+}
+.header ul li{
+    margin-right: 3rem;
+}
+li:hover >a {
+    color:rgb(105, 194, 3)
+}
+
+

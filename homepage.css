@@ -1,0 +1,33 @@
+
+.header{
+    padding:2rem 5rem;
+    /* nay la shorthand: top bot 0, righ left 5rem */
+}
+.logo{
+    font-size: 3rem;
+    font-family:'Times New Roman', Times, serif;
+}
+.nav_menu{
+    font-size: 1.3rem;
+    color: rgb(2, 164, 2);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contact{
+    font-size: 1.3rem;
+    color: rgb(253, 143, 161);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header ul{
+    display:flex;
+}
+.header ul li{
+    margin-right: 3rem;
+}
+li:hover >a {
+    color:rgb(255, 114, 243)
+}

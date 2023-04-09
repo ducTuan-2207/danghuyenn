@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .buy-amount button{
+            width: 30px;
+            height: 30px;
+            outline: none;
+            background: none;
+            border: 1px solid rgb(241, 241, 241);
+            cursor: pointer; /*di chuột vào hiện con trỏ */
+        }
+        .buy-amount button:hover{color: #cfcfcf ;}
+         
+        .buy-amount{
+            display: flex;
+        }
+        .buy-amount input{
+            width: 50px;
+            text-align: center;
+            border: 1px solid rgb(241, 241, 241);
+        }
+    </style>
+</head>
+<body>
+    <div class="buy-amount">
+        <button class="minus-buttom" onclick="handleMinus()"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15" />
+          </svg>
+        </button> 
+        <!-- handle plus là mình định nghĩa 1 cái hàm để xử lý khi ng dùng nhấp vào -->
+        <input type="text"name="amount" id="amount" value="1"/>
+        <button class="plus-buttom" onclick="handlePlus()"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+          </svg>
+        </button>
+    </div>
+    <script src="amount.js"></script>
+</body>
+</html>

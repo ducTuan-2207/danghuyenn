@@ -1,0 +1,22 @@
+.grid_column{
+    padding: 5rem 10rem;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(240, 240, 240,0.6);   
+}
+
+
+h3{
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(0, 90, 36) ;
+}
+.column_list{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 2rem;
+    color:rgb(0, 90, 36) ;
+}
+.column_list li{ margin-top: 1rem;}
+
